@@ -20,7 +20,7 @@ header {
     align-items: center;
     padding: 10px;
     padding-left: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 #wortuhr {
@@ -41,10 +41,10 @@ main {
     border: 1px solid #919191;
     /* padding: 10px; */
     box-shadow: 0 0 10px rgba(128, 128, 128, 0.2);
-    margin-top: 5px;
+    margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: left;
@@ -96,8 +96,8 @@ main {
     padding-left: 20px;
     padding-top: 15px;
     padding-right: 20px;
-    background-color: #fff;
-    border-radius: 20px 20px 0px 0px;
+    /* background-color: #fff; */
+    /* border-radius: 20px 20px 0px 0px; */
     color: #2d2d2d;
 }
 
@@ -110,6 +110,10 @@ main {
     text-align: justify;
     hyphens: auto;
     
+}
+
+#nopicture {
+    width: 100% !important;
 }
 
 @media only screen and (max-width: 480px) {
