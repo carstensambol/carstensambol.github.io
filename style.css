@@ -77,11 +77,12 @@ main {
     
     margin: 10px;
     margin-bottom: 0;
-    width: 50%;
+    width: 67%;
 }
 
 .picture {
-    width: 50%;
+    width: 33%;
+    border-left: solid 0.5px #919191;
 }
 
 .picture img {
@@ -136,5 +137,8 @@ main {
     }
     .picture img {
         width: 100%;
+    }
+    .picture {
+        width: 50%;
     }
 }
